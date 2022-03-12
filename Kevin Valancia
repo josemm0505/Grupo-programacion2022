@@ -1,0 +1,12 @@
+//Suma1
+#include <iostream>
+using namespace std;
+int main ()
+{
+float N1,N2,S
+cin>>N1
+cin>>N2
+S=N1+N2;
+cout>>S;
+return 0 
+}
