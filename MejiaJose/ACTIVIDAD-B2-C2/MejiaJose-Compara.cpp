@@ -1,4 +1,4 @@
-//================================================
+//=================================================
 
 //==> Nombre del programa: Comparar dos numeros
 
@@ -6,7 +6,7 @@
 //==>Autor: Jose Mejia
 //==>Fecha de elaboración: 2022-04-23
 //==>Fecha ultima actualización: 2022-05-13
-//=================================================
+//==================================================
 
 #include <iostream>
 using namespace std;
@@ -27,12 +27,12 @@ int main()
 	else{
 		cout<<"El numero "<<jm_num2<<" es mayor que  "<<jm_num1<<endl;
 	} 
-	cout<<endl<<"//================================================"<<endl;
+	cout<<endl<<"//================================================="<<endl;
 cout<<"//==> Nombre del programa: Comparar dos numeros"<<endl;
 cout<<"//==> Archivo : MejiaJose-Compara.cpp"<<endl;
 cout<<"//==>Autor: Jose Mejia"<<endl;
 cout<<"//==>Fecha de elaboración: 2022-04-23"<<endl;
 cout<<"//==>Fecha ultima actualización: 2022-05-13"<<endl;
-cout<<"//================================================="<<endl;
+cout<<"//=================================================="<<endl;
 	return 0;
 }
