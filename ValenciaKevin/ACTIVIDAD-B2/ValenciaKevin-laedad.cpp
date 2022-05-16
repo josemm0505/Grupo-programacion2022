@@ -3,9 +3,9 @@ using namespace std;
 int main ()
 {
 	int dd, mm, yy, dd1, mm1, yy1, da, ma, ya;
-	cout<<"Ingrese la fecha actual en el formato dd/mm/yy: "<<endl;
+	cout<<"Ingrese fecha actual de la siguiente manera dd/mm/yy: "<<endl;
 	cin>>dd>>mm>>yy;
-	cout<<"Ingrese su fecha de nacimiento en el formato dd/mm/yy: "<<endl;
+	cout<<"Ingrese fecha de nacimiento de la siguiente manera dd/mm/yy: "<<endl;
 	cin>>dd1>>mm1>>yy1;
 	if (dd<dd1){
 		dd=dd+30;
@@ -24,6 +24,7 @@ int main ()
 			ma=mm-mm1;
 		}
 	ya=yy-yy1;
-	cout<<"Usted tiene "<<ya<<" anios, "<<ma<<" meses "<<"y "<<da<<" dias."<<endl;
+	cout<<"Actualmente tienes "<<ya<<" anios, "<<ma<<" meses "<<"y "<<da<<" dias."<<endl;
 	return 0;
 }
+
