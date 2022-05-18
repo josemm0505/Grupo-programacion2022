@@ -1,31 +1,44 @@
+//================================================
+//==> Nombre del programa: CuentaMoneda
+//==> Archivo : CuentaMoneda.cpp
+//==>Autor: Valencia Kevin
+//==>Fecha de elaboración: 2022-01-10
+//==>Fecha ultima actualización: 2022-05-18
+//=================================================
 #include <iostream>
 using namespace std ;
 int  main()
 {
-	int a, b= 0 , b1= 0 , b2= 0 ;
-	float x, m= 0 , m1= 0 , m2= 0 ;
+	int vca, vcb= 0 , vcb1= 0 , vcb2= 0 ;
+	float vcx, vcm= 0 , vcm1= 0 , vcm2= 0 ;
 	cout<< "Ingreso la cantidad de monedas: " ;
-	cin>>a;
+	cin>>vca;
 	do {
 		cout<< " Ingrese el valor de la moneda (0.10,0.25): " ;
-		cin>>x;
-		b=b+ 1 ;
-		m=m+x;
-		if (x== 0.10 ){
-			b1=b1+ 1 ;
-			m1=m1+x;
+		cin>>vcx;
+		vcb=vcb+ 1 ;
+		vcm=vcm+vcx;
+		if (vcx== 0.10 ){
+			vcb1=vcb1+ 1 ;
+			vcm1=vcm1+vcx;
 		} else {
-		b2=b2+ 1 ;
-		m2=m2+x;
+		vcb2=vcb2+ 1 ;
+		vcm2=vcm2+vcx;
 		}
-	} while (b<a);
+	} while (vcb<vca);
 	cout<< " Resultado: " <<endl;
-	cout<< "El total de monedas es: " <<b<<endl;
-	cout<< "El dinero total contado es: " <<m<<endl;
-	cout<< " La suma de monedas de 0.10c ingresadas es: " <<b1<<endl;
-	cout<< " Dinero en monedas de 0.10c: " <<m1<<endl;
-	cout<< "Dinero en monedas de 0,25c: " <<b2<<endl;
-	cout<< "El total de dinero en monedas de 0.25c es: " <<m2<<endl;
+	cout<< "El total de monedas es: " <<vcb<<endl;
+	cout<< "El dinero total contado es: " <<vcm<<endl;
+	cout<< " La suma de monedas de 0.10c ingresadas es: " <<vcb1<<endl;
+	cout<< " Dinero en monedas de 0.10c: " <<vcm1<<endl;
+	cout<< "Dinero en monedas de 0,25c: " <<vcb2<<endl;
+	cout<< "El total de dinero en monedas de 0.25c es: " <<vcm2<<endl;
+//================================================
+//==> Nombre del programa: CuentaMoneda
+//==> Archivo : CuentaMoneda.cpp
+//==>Autor: Valencia Kevin
+//==>Fecha de elaboración: 2022-01-10
+//==>Fecha ultima actualización: 2022-05-18
+//=================================================
 	return  0 ;
 }
-
