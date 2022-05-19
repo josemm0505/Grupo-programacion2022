@@ -3,7 +3,7 @@
 // ==> Nombre del programa: Contador de Monedas
 // ==> Archivo : LucasJavier-CuentaMoneda.cpp
 // ==>Autor: Javier Lucas
-// ==>Fecha de elaboración: 2022-04-02
+// ==>Fecha de elaboración: 2022-05-02
 // ==>Fecha última actualización: 2022-05-19
 // ================================================ =
 #include<iostream>
