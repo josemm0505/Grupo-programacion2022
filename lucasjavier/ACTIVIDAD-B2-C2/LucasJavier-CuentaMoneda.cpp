@@ -1,30 +1,47 @@
-#include <iostream>
-using namespace std ;
-int  main()
+// ================================================
+
+// ==> Nombre del programa: Contador de Monedas
+// ==> Archivo : LucasJavier-CuentaMoneda.cpp
+// ==>Autor: Javier Lucas
+// ==>Fecha de elaboración: 2022-04-02
+// ==>Fecha última actualización: 2022-05-19
+// ================================================ =
+#include<iostream>
+using namespace std;
+int  main ()
 {
-	int x, d= 0 , d1= 0 , d2= 0 ;
-	float n, e= 0 , e1= 0 , e2= 0 ;
-	cout<< "Ingrese el valor de monedas: " ;
-	cin>>x;
-	do {
-		cout<< " Escriba la cantidad de las monedas (0.10,0.25): " ;
-		cin>>n;
-		d=d+1;
-		e=e+n;
-		if (n==0.10){
-			d1=d1+1;
-			e1=e1+x;
+	int LJ_n, LJ_d= 0 , LJ_d1= 0 , LJ_d2= 0 ;
+	float LJ_x,LJ_e= 0 , LJ_e1= 0 , LJ_e2= 0 ;
+	cout<< "Digite el valor de monedas a contar :" <<endl;
+	cin>>LJ_n;
+	do{
+		cout<< " Valor de moneda (10,25): " ;
+		cin>>LJ_x;
+		LJ_d=LJ_d+ 1 ;
+		LJ_e=LJ_e+LJ_x;
+		if (LJ_x== 10 ){
+			LJ_d1=LJ_d1+ 1 ;
+			LJ_e1=LJ_e1+LJ_x;
 		} else {
-		d2=d2+1;
-		e2=e2+n;
+		LJ_d2=LJ_d2+ 1 ;
+		LJ_e2=LJ_e2+LJ_x;
 		}
-	} while (d<x);
-	cout<< " Mostrarse resultado: " <<endl;
-	cout<< "El numero de monedas incorporadas es: " <<d<<endl;
-	cout<< "El valor total del dinero contado es: " <<e<<endl;
-	cout<< " El numero de monedas de 0.10c incorporadas es: " <<d1<<endl;
-	cout<< " Total de dinero en monedas de 0.10c: " <<e1<<endl;
-	cout<< "Numero de monedas de 0,25c incorporadas: " <<d2<<endl;
-	cout<< "El valor del dinero en monedas de 0.25c es: " <<e2<<endl;
-	return 0;
+		
+		cout<<endl<< " //========================================= ======= " <<endl;
+cout<< " //==> Nombre del programa: Contador de Monedas " <<endl;
+cout<< " //==> Archivo : LucasJavier-CuentaMoneda.cpp " <<endl;
+cout<< " //==>Autor: Javier Lucas " <<endl;
+cout<< " //==>Fecha de elaboración: 2022-04-02 " <<endl;
+cout<< " //==>Fecha ultima actualización: 2022-05-19 " <<endl;
+cout<< " //============================================ ===== " <<endl;
+
+} while (LJ_d<LJ_n);
+	cout<< " Nos da como resultado: " <<endl;
+	cout<< " El valor de monedas digitadas: " <<LJ_d<<endl;
+	cout<< " El valor total del dinero sumado: " <<LJ_e<<endl;
+	cout<< " El valor de monedas de 10 digitadas: " <<LJ_d1<<endl;
+	cout<< " El valor total de monedas de 10: " <<LJ_e1<<endl;
+	cout<< " El valor de monedas de 25 digitadas: " <<LJ_d2<<endl;
+	cout<< " El valor total de monedas de 25: " <<LJ_e2<<endl;
+	return 0 ;
 }
