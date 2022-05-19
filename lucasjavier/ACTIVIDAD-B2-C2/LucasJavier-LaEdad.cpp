@@ -1,29 +1,49 @@
+//================================================
+
+//==> Nombre del programa: Edad de una persona
+//==> Archivo : LucasJavier-LaEdad.cpp
+//==>Autor: Javier Lucas
+//==>Fecha de elaboración: 2022-05-02
+//==>Fecha ultima actualización: 2022-05-19
+//=================================================
+
+
 #include <iostream>
 using namespace std;
 int main ()
 {
-	int d, e, f, d1, e1, f1, g, h, eu, m, a;
-	cout<<"Escribir la fecha actual usando d/m/a: "<<endl;
-	cin>>d>>e>>f;
-	cout<<"Escribir su fecha de nacimiento usando d/m/a: "<<endl;
-	cin>>d1>>e1>>f1;
-	if (d<d1){
-		d=d+30;
-		e=e-1;
-		g=d-d1;
+	int LJ_dd, LJ_mm, LJ_jj, LJ_dd1, LJ_mm1, LJ_jj1, LJ_de, LJ_me, LJ_ye;
+	cout<<"Digite la fecha actual usando formato dd/mm/yy: "<<endl;
+	cin>>LJ_dd>>LJ_mm>>LJ_jj;
+	cout<<"Digite su fecha de nacimiento usando formato dd/mm/yy: "<<endl;
+	cin>>LJ_dd1>>LJ_mm1>>LJ_jj1;
+
+	if (LJ_dd<LJ_dd1){
+		LJ_dd=LJ_dd+30;
+		LJ_mm=LJ_mm-1;
+		LJ_de=LJ_dd-LJ_dd1;
 	}
 		else {
-			g=d-d1;
+			LJ_de=LJ_dd-LJ_dd1;
 		}
-	if (e<e1){
-		e=e+12;
-		h=h-1;
-		h=e-e1;
+	if (LJ_mm<LJ_mm1){
+		LJ_mm=LJ_mm+12;
+		LJ_jj=LJ_jj-1;
+		LJ_me=LJ_mm-LJ_mm1;
 	}
 		else {
-			h=e-e1;
+			LJ_me=LJ_mm-LJ_mm1;
 		}
-	eu=f-f1;
-	cout<<"Usted tiene "<<eu<<" años, "<<h<<" meses "<<"y "<<g<<" dias."<<endl;
+	LJ_ye=LJ_jj-LJ_jj1;
+
+cout<<endl<<"//================================================"<<endl;
+cout<<"//==> Nombre del programa: Edad de una persona"<<endl;
+cout<<"//==> Archivo : LucasJavier-LaEdad.cpp"<<endl;
+cout<<"//==>Autor: Javier Lucas"<<endl;
+cout<<"//==>Fecha de elaboración: 2022-05-02"<<endl;
+cout<<"//==>Fecha ultima actualización: 2022-05-19"<<endl;
+cout<<"//================================================="<<endl;
+
+	cout<<"Usted tiene "<<LJ_ye<<" años, "<<LJ_me<<" meses "<<"y "<<LJ_de<<" dias."<<endl;
 	return 0;
-}
+}														
