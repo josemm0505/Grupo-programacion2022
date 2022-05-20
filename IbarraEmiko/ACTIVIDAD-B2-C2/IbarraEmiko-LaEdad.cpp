@@ -1,29 +1,43 @@
+//=============================================
+//==> Nombre del programa: Sacar la edad
+//==> Archivo: IbarraEmiko-LaEdad.cpp
+//==> Autora: Emiko Ibarra
+//==> Fecha de elaboración: 20/05/2022
+//==> Fecha de modificación: 20/05/2022
+//=============================================
 #include <iostream>
 using namespace std ;
 int  main()
 {
-	int a, b, c, a1, b1, c1, d, q, eu, qq, qq1;
+	int ei_a, ei_b, ei_c, ei_a1, ei_b1, ei_c1, ei_d, ei_q, ei_eu, ei_qq, ei_qq1;
 	cout<< " Ingresé la fecha de hoy " ;
-	cin>>a>>b>>c;
+	cin>>ei_a>>ei_b>>ei_c;
 	cout<< " Ingresé su fecha de nacimiento " ;
-	cin>>a1>>b1>>c1;
-	if (a<a1){
-		a=a+30;
-		b=b-1;
-		d=a-a1;
+	cin>>ei_a1>>ei_b1>>ei_c1;
+	if (ei_a<ei_a1){
+		ei_a=ei_a+30;
+		ei_b=ei_b-1;
+		ei_d=ei_a-ei_a1;
 	}
 	else {
-		d=a-a1;
+		ei_d=ei_a-ei_a1;
 	}
-	if (b<b1){
-		b=b+ 12;
-		qq=qq- 1;
-		q=b-b1;
+	if (ei_b<ei_b1){
+		ei_b=ei_b+ 12;
+		ei_qq=ei_qq- 1;
+		ei_q=ei_b-ei_b1;
 	}
 	else {
-		q=b-b1;
+		ei_q=ei_b-ei_b1;
 	}
-	eu=qq-qq1;
-	cout<< " Su edad es : " <<eu<< " Años; " <<q<< " Meses " << " y " <<d<< " DIA " <<endl;
+	ei_eu=ei_qq-ei_qq1;
+	cout<< " Su edad es : " <<ei_eu<< " Años; " <<ei_q<< " Meses " << " y " <<ei_d<< " DIA " <<endl;
+cout<<endl<<"============================================="<<endl;
+cout<<"//==>Nombre del programa: Sacar la edad "<<endl;
+cout<<"//==>Archivo: IbarraEmiko-LaEdad.cpp "<<endl;
+cout<<"//==>Autora: Emiko Ibarra "<<endl;
+cout<<"//==>Fecha de elaboración: 20/05/2022 "<<endl;
+cout<<"//==>Fecha de modificación: 20/05/2022 "<<endl;
+cout<<"//============================================="<<endl;
 	return  0 ;
 }
