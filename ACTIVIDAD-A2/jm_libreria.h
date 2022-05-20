@@ -2,6 +2,7 @@
 int jm_compara()
 {
 	float jm_num1,jm_num2;
+	cout<<"\n //==> Programa para comprar dos numeros <==//\n "<<endl;
 	cout<<"Ingrese una cantidad: "<<endl;
 	cin>>jm_num1;
 	cout<<"Ingrese una cantidad: "<<endl;
@@ -34,6 +35,7 @@ int jm_sumaN()
 {
 	int jm_i=0, jm_n;
 	float jm_x, jm_s=0;
+	cout<<"\n //==> Programa para sumar varios numeros <==//\n "<<endl;
 	cout<<"Ingrese la cantidad de numeros que desea sumar: "<<endl;
 	cin>>jm_n;
 	do {
@@ -62,6 +64,7 @@ int jm_puntoventa()
 {
 	int jm_c=0, jm_n;
 	float jm_s=0, jm_x, jm_d, jm_t, jm_t1, jm_iv, jm_f;
+	cout<<"\n //==> Programa para conocer el Punto de Venta <==//\n "<<endl;
 	cout<<"Ingrese la cantidad de productos que desea sumar"<<endl;
 	cin>>jm_n;
 	do{
@@ -98,6 +101,7 @@ return 0;
 int jm_laedad()
 {
 	int jm_dd, jm_mm, jm_yy, jm_dd1, jm_mm1, jm_yy1, jm_da, jm_ma, jm_ya;
+	cout<<"\n //==> Programa para saber la edad exacta de una persona <==//\n "<<endl;
 	cout<<"Ingrese la fecha actual en el formato dd/mm/yy: "<<endl;
 	cin>>jm_dd>>jm_mm>>jm_yy;
 	cout<<"Ingrese su fecha de nacimiento en el formato dd/mm/yy: "<<endl;
@@ -138,6 +142,7 @@ cout<<"//================================================="<<endl;
 int jm_cuentamoneda()
 {
 	int jm_n, jm_i, jm_sum=0, jm_sum1=0, jm_sum25=0, jm_sum50=0;
+	cout<<"\n //==> Programa para contar y clasificar monedas <==//\n "<<endl;
 	cout<<"Ingrese la cantidad de monedas que desea depositar: "<<endl;
 	cin>>jm_n;
 	int num [jm_n];
