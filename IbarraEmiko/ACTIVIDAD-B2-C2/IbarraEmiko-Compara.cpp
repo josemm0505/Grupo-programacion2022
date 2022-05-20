@@ -1,20 +1,34 @@
+//=============================================
+//==> Nombre del programa: Comparar dos números
+//==> Archivo: IbarraEmiko-Compara.cpp
+//==> Autora: Emiko Ibarra
+//==> Fecha de elaboración: 20/05/2022
+//==> Fecha de modificación: 20/05/2022
+//=============================================
 #include <iostream>
 using namespace std;
 int main()
 {
-	float a, b;
+	float ei_a, ei_b;
 	cout<<"Ingrese un número: "<<endl;
-	cin>>a;
+	cin>>ei_a;
 	cout<<"Ingrese otro numero: "<<endl;
-	cin>>b;
-	if (a==b){
+	cin>>ei_b;
+	if (ei_a==ei_b){
 	cout<<"Los números son iguales"<<endl;
 	}
-	else if (a>b){
-		cout<<"El numero "<<a<<" es mayor que "<<b<<endl;
+	else if (ei_a>ei_b){
+		cout<<"El numero "<<ei_a<<" es mayor que "<<ei_b<<endl;
 	}
 	else{
-		cout<<"El numero "<<b<<" es mayor "<<a<<endl;
-	} 
+		cout<<"El numero "<<ei_b<<" es mayor "<<ei_a<<endl;
+	}
+cout<<"//============================================= "<<endl;
+cout<<"//==>Nombre del programa: Comparar dos números "<<endl;
+cout<<"//==>Archivo: IbarraEmiko-Compara.cpp "<<endl;
+cout<<"//==>Autora: Emiko Ibarra "<<endl;
+cout<<"//==>Fecha de elaboración: 20/05/2022 "<<endl;
+cout<<"//==>Fecha de modificación: 20/05/2022 "<<endl;
+cout<<"//============================================= "<<endl;
 	return 0;
 }
