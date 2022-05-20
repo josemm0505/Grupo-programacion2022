@@ -1,29 +1,43 @@
+//=============================================
+//==> Nombre del programa: Punto de venta
+//==> Archivo: IbarraEmiko-PuntoVenta.cpp
+//==> Autora: Emiko Ibarra
+//==> Fecha de elaboración: 20/05/2022
+//==> Fecha de modificación: 20/05/2022
+//=============================================
 #include <iostream>
 using namespace std;
 int  main ()
 {
-	int b=0 , e;
-	float a=0 , x, t, p, pd, IVA= 0.12 , dsc=0.30 , tt;
+	int ei_b=0 , ei_e;
+	float ei_a=0 , ei_x, ei_t, ei_p, ei_pd, ei_IVA= 0.12 , ei_dsc=0.30 , ei_tt;
 	cout<< " Ingresé cuántos elementos va a comprar: " ;
-	cin>>e;
+	cin>>ei_e;
 	do {
 		cout<< " Ingrese el valor: " ;
-		cin>>x;
-		b=b+ 1;
-		a=a+x;
-		p=a*IVA;
-		cout<< " El IVA de su compra es:$ " <<p<<endl;
-		pd=a*dsc;
-		cout<< " El descuento de su compra es:$ " <<pd<<endl; 
-		t=p+pd;
-	} while (b<e);
-if (t==a){
-		cout<< " Usted aplica a descuento: " <<t<<endl;
-		IVA=t*p/ 100 ;
-		dsc=t*pd/ 100 ;
+		cin>>ei_x;
+		ei_b=ei_b+ 1;
+		ei_a=ei_a+ei_x;
+		ei_p=ei_a*ei_IVA;
+		cout<< " El IVA de su compra es:$ " <<ei_p<<endl;
+		ei_pd=ei_a*ei_dsc;
+		cout<< " El descuento de su compra es:$ " <<ei_pd<<endl; 
+		ei_t=ei_p+ei_pd;
+	} while (ei_b<ei_e);
+cout<<endl<<"//================================================"<<endl;
+cout<<"//==>Nombre del programa: Punto de venta"<<endl;
+cout<<"//==>Archivo: IbarraEmiko-PuntoVenta.cpp "<<endl;
+cout<<"//==>Autora: Emiko Ibarra "<<endl;
+cout<<"//==>Fecha de elaboración: 20/05/2022 "<<endl;
+cout<<"//==>Fecha de modificación: 20/05/2022 "<<endl;
+cout<<"//============================================= "<<endl; 
+if (ei_t==ei_a){
+		cout<< " Usted aplica a descuento: " <<ei_t<<endl;
+		ei_IVA=ei_t*ei_p/ 100 ;
+		ei_dsc=ei_t*ei_pd/ 100 ;
 	} else {
-		tt=a+p-pd;
-		cout<< " Su total a pagar es:$ " <<tt<<endl;
+		ei_tt=ei_a+ei_p-ei_pd;
+		cout<< " Su total a pagar es:$ " <<ei_tt<<endl;
 }
 	return  0 ;
 }
