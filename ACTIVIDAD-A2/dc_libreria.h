@@ -96,6 +96,7 @@ cout<< " Su compra aplica a Descuento: " <<Dc_Tb<<endl;
 	
 	}
 	return  0 ;
+}
 	
 	
 // Programa laedad
@@ -184,7 +185,7 @@ int  Dc_menu ()
 	int op,flag1;
 
 	do{
-			system ( " claro " );
+			system ("clear");
 			cout<< " **************PROGRAMAS DE CAPURRO DANNA************** " <<endl<<endl;
 			cout<< " 1.- COMPARA DOS NUMEROS \n " ;
 			cout<< " 2.- SUMA DE VARIOS NUMEROS. \n " ;
@@ -195,23 +196,23 @@ int  Dc_menu ()
 			cout<< " Ingrese una opcion: " ; cin>>op; // la variable op siver para la oppcion a escoger
 			switch (op){
 				case  1 :
-					system ( " claro " );
+					system ("clear");
 					Dc_Compara ();			
 					break ;
 				case  2 :
-					system ( " claro " );
+					system ("clear");
 					Dc_SumaN ();
 					break ;
 				case  3 :
-					system ( " claro " );
+					system ("clear");
 					Dc_PuntoVenta ();
 					break ;
 				case  4 :
-					system ( " claro " );
+					system ("clear");
 					Dc_laedad ();
 					break ;
 				case  5 :
-					system ( " claro " );
+					system ("clear");
 					Dc_CuentaMoneda ();
 					break ;
 				}
@@ -221,7 +222,7 @@ int  Dc_menu ()
 				if (op== 0 ){
 					cout<< " Presione (Enter) para volver: " <<endl;
 				}
-				  bandera1=cin. ignorar (). obtener (); // Esta linea detiene la patalla hasta que el usuario presione alguna tecla
+				  flag1=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuario presione alguna tecla
 	} while(op!= 0 );
 	return ( 0 );
 }

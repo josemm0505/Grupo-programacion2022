@@ -5,6 +5,7 @@ Fecha de creación: 20/05/2022 */
 #include<stdlib.h>
 using namespace std;
 #include"jm_libreria.h"
+#include"dc_libreria.h"
 int main ()
 {
 	int op,flag;
@@ -26,7 +27,7 @@ int main ()
 					break;
 				case 2:
 					system("clear");
-					//jm_comparaa();
+					 Dc_menu();
 					break;
 				case 3:
 					system("clear");
