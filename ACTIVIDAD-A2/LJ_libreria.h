@@ -167,8 +167,6 @@ int LJ_CuentaMoneda ()
 	cout<< " El valor total de monedas de 10: " <<LJ_e1<<endl;
 	cout<< " El valor de monedas de 25 digitadas: " <<LJ_d2<<endl;
 	cout<< " El valor total de monedas de 25: " <<LJ_e2<<endl;
-	return 0 ;
-}
 
 cout<<"\n//======================================================="<<endl;
 cout<<"//======> Nombre del programa: Contador de Monedas <====="<<endl;
