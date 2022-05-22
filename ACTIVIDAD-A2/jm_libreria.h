@@ -220,6 +220,7 @@ int jm_menu()
 				   flag1=cin.ignore().get();
 				  }		  
 				if(op==0){
+					system("clear");
 					cout<<"\n//======================================================="<<endl;
 					cout<<"//===> e-mail de contacto: mejiamicoltalol@gmail.com <==="<<endl;
 					cout<<"//================> Esmeraldas - Ecuador <==============="<<endl;
