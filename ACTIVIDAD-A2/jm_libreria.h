@@ -19,13 +19,13 @@ int jm_compara()
 		cout<<"El numero "<<jm_num2<<" es mayor que  "<<jm_num1<<endl;
 	} 
 	
-cout<<endl<<"//================================================="<<endl;
-cout<<"//==> Nombre del programa: Comparar dos numeros"<<endl;
-cout<<"//==> Archivo : MejiaJose-Compara.cpp"<<endl;
-cout<<"//==>Autor: Jose Mejia"<<endl;
-cout<<"//==>Fecha de elaboración: 2022-04-23"<<endl;
-cout<<"//==>Fecha ultima actualización: 2022-05-13"<<endl;
-cout<<"//=================================================="<<endl;
+cout<<"\n//======================================================="<<endl;
+cout<<"//=====> Nombre del programa: Comparar dos numeros <====="<<endl;
+cout<<"//==========> Archivo : MejiaJose-Compara.cpp <=========="<<endl;
+cout<<"//================> Autor: Jose Mejia <=================="<<endl;
+cout<<"//=========> Fecha de elaboración: 2022-04-23 <=========="<<endl;
+cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
+cout<<"//======================================================="<<endl;
 cout<< "\n Press Enter to exit. \n"<<endl;
 	flag1=cin.ignore().get();
 	return 0;
@@ -46,18 +46,17 @@ int jm_sumaN()
 		jm_i=jm_i+1; 
 		jm_s=jm_s+jm_x;
 	}while (jm_i<jm_n);
-
-cout<<endl<<"//================================================"<<endl;
-cout<<"//==> Nombre del programa: Suma de Varios numeros"<<endl;
-cout<<"//==> Archivo : MejiaJose-SumaN.cpp"<<endl;
-cout<<"//==>Autor: Jose Mejia"<<endl;
-cout<<"//==>Fecha de elaboración: 2022-04-23"<<endl;
-cout<<"//==>Fecha ultima actualización: 2022-05-13"<<endl;
-cout<<"//================================================="<<endl;
-
 	cout<<"La cantidad de numeros ingresados es: "<<jm_n<<endl;
 	cout<<"La suma total de los numeros es: "<<jm_s<<endl;
-	cout<< "\n Press Enter to exit. \n"<<endl;
+
+cout<<"\n//======================================================="<<endl;
+cout<<"//====> Nombre del programa: Suma de varios numeros <===="<<endl;
+cout<<"//===========> Archivo : MejiaJose-SumaN.cpp <==========="<<endl;
+cout<<"//================> Autor: Jose Mejia <=================="<<endl;
+cout<<"//=========> Fecha de elaboración: 2022-04-23 <=========="<<endl;
+cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
+cout<<"//======================================================="<<endl;
+cout<< "\n Press Enter to exit. \n"<<endl;
 	flag1=cin.ignore().get();
 	return 0;
 }
@@ -78,16 +77,6 @@ int jm_puntoventa()
 	}while (jm_c<jm_n);
 	cout<<"Ingrese el valor del descuento que desea realizar: "<<endl;
 	cin>>jm_d;
-
-cout<<endl<<"//================================================"<<endl;
-cout<<"//==> Nombre del programa: Punto de Venta"<<endl;
-cout<<"//==> Archivo : MejiaJose-PuntoVenta.cpp"<<endl;
-cout<<"//==>Autor: Jose Mejia"<<endl;
-cout<<"//==>Fecha de elaboración: 2022-04-29"<<endl;
-cout<<"//==>Fecha ultima actualización: 2022-05-13"<<endl;
-cout<<"//================================================="<<endl;
-
-
 	cout<<"Valor bruto de compra: "<<jm_s<<endl;
 	jm_t=(jm_s*jm_d)/100;
 	cout<<"Valor del descuento: "<<jm_t<<endl;
@@ -96,7 +85,14 @@ cout<<"//================================================="<<endl;
 	cout<<"Valor del IVA: "<<jm_iv<<endl;
 	jm_f=(jm_s-jm_t)+jm_iv;
 	cout<<"Valor final: "<<jm_f<<endl;
-	cout<< "\n Press Enter to exit. \n"<<endl;
+cout<<"\n//======================================================="<<endl;
+cout<<"//========> Nombre del programa: Punto de Venta <========"<<endl;
+cout<<"//=========> Archivo : MejiaJose-PuntoVenta.cpp <========"<<endl;
+cout<<"//================> Autor: Jose Mejia <=================="<<endl;
+cout<<"//=========> Fecha de elaboración: 2022-04-29 <=========="<<endl;
+cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
+cout<<"//======================================================="<<endl;
+cout<< "\n Press Enter to exit. \n"<<endl;
 	flag1=cin.ignore().get();
 return 0;
 }
@@ -128,16 +124,15 @@ int jm_laedad()
 		}
 	jm_ya=jm_yy-jm_yy1;
 
-cout<<endl<<"//================================================"<<endl;
-cout<<"//==> Nombre del programa: Edad de una persona"<<endl;
-cout<<"//==> Archivo : MejiaJose-laedad.cpp"<<endl;
-cout<<"//==>Autor: Jose Mejia"<<endl;
-cout<<"//==>Fecha de elaboración: 2022-04-29"<<endl;
-cout<<"//==>Fecha ultima actualización: 2022-05-13"<<endl;
-cout<<"//================================================="<<endl;
-
 	cout<<"Usted tiene "<<jm_ya<<" anios, "<<jm_ma<<" meses "<<"y "<<jm_da<<" dias."<<endl;
-	cout<< "\n Press Enter to exit. \n"<<endl;
+cout<<"\n//======================================================="<<endl;
+cout<<"//======> Nombre del programa: Edad de una persona <====="<<endl;
+cout<<"//===========> Archivo : MejiaJose-laedad.cpp <=========="<<endl;
+cout<<"//================> Autor: Jose Mejia <=================="<<endl;
+cout<<"//=========> Fecha de elaboración: 2022-04-29 <=========="<<endl;
+cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
+cout<<"//======================================================="<<endl;
+cout<< "\n Press Enter to exit. \n"<<endl;
 	flag1=cin.ignore().get();
 	return 0;
 }
@@ -167,19 +162,18 @@ int jm_cuentamoneda()
 
 }
 
-cout<<endl<<"//================================================"<<endl;
-cout<<"//==> Nombre del programa: Contador de Monedas"<<endl;
-cout<<"//==> Archivo : MejiaJose-CuentaMoneda.cpp"<<endl;
-cout<<"//==>Autor: Jose Mejia"<<endl;
-cout<<"//==>Fecha de elaboración: 2022-04-29"<<endl;
-cout<<"//==>Fecha ultima actualización: 2022-05-13"<<endl;
-cout<<"//================================================="<<endl;
-
 	cout<<"Monedas de 50 centavos: "<<jm_sum50<<endl;
 	cout<<"Monedas de 25 centavos: "<<jm_sum25<<endl;
 	cout<<"Monedas de 10 centavos: "<<jm_sum1<<endl;
 	cout<<"La cantidad total de dinero es: "<<jm_sum<<endl;
-	cout<< "\n Press Enter to exit. \n"<<endl;
+cout<<"\n//======================================================="<<endl;
+cout<<"//======> Nombre del programa: Contador de Monedas <====="<<endl;
+cout<<"//========> Archivo : MejiaJose-CuentaMoneda.cpp <======="<<endl;
+cout<<"//================> Autor: Jose Mejia <=================="<<endl;
+cout<<"//=========> Fecha de elaboración: 2022-04-29 <=========="<<endl;
+cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
+cout<<"//======================================================="<<endl;
+cout<< "\n Press Enter to exit. \n"<<endl;
 	flag1=cin.ignore().get();
 return 0;
 }
@@ -187,7 +181,7 @@ return 0;
 //Menu Principal
 int jm_menu()
 {
-	int op;
+	int op,flag1;
 
 	do{
 			system("clear");
@@ -222,13 +216,19 @@ int jm_menu()
 					break;
 				}
 				if(op!=0 && op>5){
-				   cout << "\n Opcion no valida \n" <<  "Press Enter to continue\n";	    // pause the program until user input
+				   cout << "\n Opcion no valida \n" <<  "Press Enter to continue\n";
+				   flag1=cin.ignore().get();
 				  }		  
 				if(op==0){
-					cout<<"Presione (Enter) para volver: "<<endl;
+					cout<<"\n//======================================================="<<endl;
+					cout<<"//===> e-mail de contacto: mejiamicoltalol@gmail.com <==="<<endl;
+					cout<<"//================> Esmeraldas - Ecuador <==============="<<endl;
+					cout<<"//======================================================="<<endl;
+					cout<<"\n Presione (Enter) para volver: \n"<<endl;
 				}
 				  system("cd ..");
 	}while(op!=0);
+
 	return(0);
 }
 
