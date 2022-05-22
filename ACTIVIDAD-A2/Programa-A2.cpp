@@ -46,17 +46,20 @@ int main ()
 				   cout << "\n Opcion no valida \n" <<  "Press Enter to continue\n";	    // pause the program until user input
 				  }		  
 				if(op==0){
-					cout<<"Quieres salir completamente del sistema (presiona ENTER) : "<<endl;
+					system("clear");
+					cout<<"========================================================="<<endl;
+					cout<<"*************** Grupo-Programación2022® *****************"<<endl;
+					cout<<"========================================================="<<endl;
+					cout<<"* Mejia Jose, Capurro Danna, Lucas Javier, Ibarra Emiko *"<<endl;
+					cout<<" ****************** Valencia Ismael *********************"<<endl;
+					cout<<"========================================================="<<endl;
+					cout<<"********************* 20/05/2022 ************************"<<endl;
+					cout<<"\nQuieres salir completamente del sistema (presiona ENTER) :\n"<<endl;
 				}
 				  flag=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
 				  // cout<<flag;
 				  system("cd .."); 
 	}while(op!=0);
-cout<<"============================================================================"<<endl;
-cout<<"*********************** Grupo-Programación2022® ****************************"<<endl;
-cout<<"============================================================================"<<endl;
-cout<<"** Mejia Jose, Capurro Danna, Lucas Javier, Ibarra Emiko, Valencia Ismael **"<<endl;
-cout<<"============================================================================"<<endl;
-cout<<"****************************** 20/05/2022 **********************************"<<endl;
+
 	return(0);
 }
