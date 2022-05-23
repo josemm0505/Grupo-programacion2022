@@ -239,8 +239,4 @@ int  Dc_menu ()
 	}while(op!=0);
 
 	return(0);
-<<<<<<< HEAD
-	}
-=======
 }
->>>>>>> b758c289a69900baa9390adae502e02efba4ad31
