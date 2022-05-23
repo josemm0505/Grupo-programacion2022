@@ -101,6 +101,12 @@ return 0;
 }
 
 	
+<<<<<<< HEAD
+=======
+	}
+	return  0 ;
+}
+>>>>>>> 7bebc36400de51d50fea236bfb50edc29a5d0f5f
 	
 	
 // Programa laedad
@@ -236,8 +242,14 @@ int  Dc_menu ()
 					cout<<"//======================================================="<<endl;
 					cout<<"\n Presione (Enter) para volver: \n"<<endl;
 				}
+<<<<<<< HEAD
 				  system("cd ..");
 	}while(op!=0);
 
 	return(0);
+=======
+				  flag1=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuario presione alguna tecla
+	} while(op!= 0 );
+	return ( 0 );
+>>>>>>> 7bebc36400de51d50fea236bfb50edc29a5d0f5f
 }

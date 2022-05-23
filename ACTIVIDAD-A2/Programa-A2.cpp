@@ -5,6 +5,7 @@ Fecha de creación: 20/05/2022 */
 #include<stdlib.h>
 using namespace std;
 #include"jm_libreria.h"
+#include"dc_libreria.h"
 int main ()
 {
 	int op,flag;
@@ -26,7 +27,7 @@ int main ()
 					break;
 				case 2:
 					system("clear");
-					//jm_comparaa();
+					 Dc_menu();
 					break;
 				case 3:
 					system("clear");
@@ -45,10 +46,20 @@ int main ()
 				   cout << "\n Opcion no valida \n" <<  "Press Enter to continue\n";	    // pause the program until user input
 				  }		  
 				if(op==0){
-					cout<<"Quieres salir completamente del sistema (presiona ENTER) : "<<endl;
+					system("clear");
+					cout<<"========================================================="<<endl;
+					cout<<"*************** Grupo-Programación2022® *****************"<<endl;
+					cout<<"========================================================="<<endl;
+					cout<<"* Mejia Jose, Capurro Danna, Lucas Javier, Ibarra Emiko *"<<endl;
+					cout<<" ****************** Valencia Ismael *********************"<<endl;
+					cout<<"========================================================="<<endl;
+					cout<<"********************* 20/05/2022 ************************"<<endl;
+					cout<<"\nQuieres salir completamente del sistema (presiona ENTER) :\n"<<endl;
 				}
-				   flag=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
-				   cout<<flag;
+				  flag=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
+				  // cout<<flag;
+				  system("cd .."); 
 	}while(op!=0);
+
 	return(0);
 }

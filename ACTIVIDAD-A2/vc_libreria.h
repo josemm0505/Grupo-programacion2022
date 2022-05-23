@@ -1,28 +1,28 @@
 //Programa para comparar dos numeros
-int jm_compara()
+int vc_compara()
 {
 	int flag1;
-	float jm_num1,jm_num2;
+	float VC1,VC2;
 	cout<<"\n //==> Programa para comprar dos numeros <==//\n "<<endl;
-	cout<<"Ingrese una cantidad: "<<endl;
-	cin>>jm_num1;
-	cout<<"Ingrese una cantidad: "<<endl;
-	cin>>jm_num2;
+	cout<<"Ingrese VC1: "<<endl;
+	cin>>VC1;
+	cout<<"Ingrese VC2: "<<endl;
+	cin>>VC2;
 
-	if (jm_num1==jm_num2){
-	cout<<"Ambas cantidades son iguales"<<endl;
+	if (VC1==VC2){
+	cout<<"El valor de VC1 es igual a VC2"<<endl;
 	}
-	else if (jm_num1>jm_num2){
-		cout<<"El numero "<<jm_num1<<" es mayor que "<<jm_num2<<endl;
+	else if (VC1>VC2){
+		cout<<"El valor de "<<VC1<<" es mayor que "<<VC2<<endl;
 	}
 	else{
-		cout<<"El numero "<<jm_num2<<" es mayor que  "<<jm_num1<<endl;
+		cout<<"El valor de  "<<VC2<<" es mayor que  "<<VC1<<endl;
 	} 
 	
 cout<<"\n//======================================================="<<endl;
 cout<<"//=====> Nombre del programa: Comparar dos numeros <====="<<endl;
-cout<<"//==========> Archivo : MejiaJose-Compara.cpp <=========="<<endl;
-cout<<"//================> Autor: Jose Mejia <=================="<<endl;
+cout<<"//==========> Archivo : ValenciaKevin-Compara.cpp <=========="<<endl;
+cout<<"//================> Autor: Valencia Kevin <=================="<<endl;
 cout<<"//=========> Fecha de elaboración: 2022-04-23 <=========="<<endl;
 cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
 cout<<"//======================================================="<<endl;
@@ -33,26 +33,26 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 
 
 //Programa para sumar varios numeros
-int jm_sumaN()
+int vc_sumaN()
 {
-	int jm_i=0, jm_n, flag1;
-	float jm_x, jm_s=0;
+	int VC1=0, VC2, flag1;
+	float VC4, VC3=0;
 	cout<<"\n //==> Programa para sumar varios numeros <==//\n "<<endl;
-	cout<<"Ingrese la cantidad de numeros que desea sumar: "<<endl;
-	cin>>jm_n;
+	cout<<"Ingrese la cantidad de valores a sumar: "<<endl;
+	cin>>VC2;
 	do {
 		cout<<"Ingrese el valor del numero: "<<endl;
-		cin>>jm_x;
-		jm_i=jm_i+1; 
-		jm_s=jm_s+jm_x;
-	}while (jm_i<jm_n);
-	cout<<"La cantidad de numeros ingresados es: "<<jm_n<<endl;
-	cout<<"La suma total de los numeros es: "<<jm_s<<endl;
+		cin>>VC4;
+		VC1=VC1+1; 
+		VC3=VC3+VC4;
+	}while (VC1<VC2);
+	cout<<"La cantidad de numeros ingresados es: "<<VC2<<endl;
+	cout<<"La suma total de los numeros es: "<<VC3<<endl;
 
 cout<<"\n//======================================================="<<endl;
 cout<<"//====> Nombre del programa: Suma de varios numeros <===="<<endl;
-cout<<"//===========> Archivo : MejiaJose-SumaN.cpp <==========="<<endl;
-cout<<"//================> Autor: Jose Mejia <=================="<<endl;
+cout<<"//===========> Archivo : ValenciaKevin-SumaN.cpp <==========="<<endl;
+cout<<"//================> Autor: Valencia Kevin <=================="<<endl;
 cout<<"//=========> Fecha de elaboración: 2022-04-23 <=========="<<endl;
 cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
 cout<<"//======================================================="<<endl;
@@ -62,33 +62,33 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 }
 
 //Programa PuntoVenta
-int jm_puntoventa()
+int vc_puntoventa()
 {
-	int jm_c=0, jm_n, flag1;
-	float jm_s=0, jm_x, jm_d, jm_t, jm_t1, jm_iv, jm_f;
+	int VC1=0, VC2, flag1;
+	float VC3=0, VC4, VC5, VC6, VC7, VC8, VC9;
 	cout<<"\n //==> Programa para conocer el Punto de Venta <==//\n "<<endl;
-	cout<<"Ingrese la cantidad de productos que desea sumar"<<endl;
-	cin>>jm_n;
+	cout<<"Ingrese la cantidad de productos que desea"<<endl;
+	cin>>VC2;
 	do{
-		cout<<"Ingrese el valor de la compra "<<jm_c+1<<endl;
-		cin>>jm_x;
-		jm_c=jm_c+1;
-		jm_s=jm_s+jm_x;
-	}while (jm_c<jm_n);
-	cout<<"Ingrese el valor del descuento que desea realizar: "<<endl;
-	cin>>jm_d;
-	cout<<"Valor bruto de compra: "<<jm_s<<endl;
-	jm_t=(jm_s*jm_d)/100;
-	cout<<"Valor del descuento: "<<jm_t<<endl;
-	jm_t1=jm_s-jm_t;
-	jm_iv=jm_t1*0.12;
-	cout<<"Valor del IVA: "<<jm_iv<<endl;
-	jm_f=(jm_s-jm_t)+jm_iv;
-	cout<<"Valor final: "<<jm_f<<endl;
+		cout<<"Ingrese el valor de la compra "<<VC1+1<<endl;
+		cin>>VC4;
+		VC1=VC1+1;
+		VC3=VC3+VC4;
+	}while (VC1<VC2);
+	cout<<"Ingrese el valor del descuento: "<<endl;
+	cin>>VC5;
+	cout<<"Valor de compra: "<<VC3<<endl;
+	VC6=(VC3*VC5)/100;
+	cout<<"Valor del descuento: "<<VC6<<endl;
+	VC7=VC3-VC6;
+	VC8=VC7*0.12;
+	cout<<"Valor del IVA: "<<VC8<<endl;
+	VC9=(VC1-VC6)+VC8;
+	cout<<"Valor final: "<<VC9<<endl;
 cout<<"\n//======================================================="<<endl;
 cout<<"//========> Nombre del programa: Punto de Venta <========"<<endl;
-cout<<"//=========> Archivo : MejiaJose-PuntoVenta.cpp <========"<<endl;
-cout<<"//================> Autor: Jose Mejia <=================="<<endl;
+cout<<"//=========> Archivo : ValenciaKevin-PuntoVenta.cpp <========"<<endl;
+cout<<"//================> Autor: Valencia Kevin <=================="<<endl;
 cout<<"//=========> Fecha de elaboración: 2022-04-29 <=========="<<endl;
 cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
 cout<<"//======================================================="<<endl;
@@ -98,37 +98,37 @@ return 0;
 }
 
 //Programa laedad
-int jm_laedad()
+int vc_laedad()
 {
-	int jm_dd, jm_mm, jm_yy, jm_dd1, jm_mm1, jm_yy1, jm_da, jm_ma, jm_ya, flag1;
+	int vc_dd, vc_mm, vc_yy, vc_dd1, vc_mm1, vc_yy1, vc_da, vc_ma, vc_ya, flag1;
 	cout<<"\n //==> Programa para saber la edad exacta de una persona <==//\n "<<endl;
 	cout<<"Ingrese la fecha actual en el formato dd/mm/yy: "<<endl;
-	cin>>jm_dd>>jm_mm>>jm_yy;
+	cin>>vc_dd>>vc_mm>>vc_yy;
 	cout<<"Ingrese su fecha de nacimiento en el formato dd/mm/yy: "<<endl;
-	cin>>jm_dd1>>jm_mm1>>jm_yy1;
-	if (jm_dd<jm_dd1){
-		jm_dd=jm_dd+30;
-		jm_mm=jm_mm-1;
-		jm_da=jm_dd-jm_dd1;
+	cin>>vc_dd1>>vc_mm1>>vc_yy1;
+	if (vc_dd<vc_dd1){
+		vc_dd=vc_dd+30;
+		vc_mm=vc_mm-1;
+		vc_da=vc_dd-vc_dd1;
+	}
+			else {
+			vc_da=vc_dd-vc_dd1;
+		}
+	if (vc_mm<vc_mm1){
+		vc_mm=vc_mm+12;
+		vc_yy=vc_yy-1;
+		vc_ma=vc_mm-vc_mm1;
 	}
 		else {
-			jm_da=jm_dd-jm_dd1;
+			vc_ma=vc_mm-vc_mm1;
 		}
-	if (jm_mm<jm_mm1){
-		jm_mm=jm_mm+12;
-		jm_yy=jm_yy-1;
-		jm_ma=jm_mm-jm_mm1;
-	}
-		else {
-			jm_ma=jm_mm-jm_mm1;
-		}
-	jm_ya=jm_yy-jm_yy1;
+	vc_ya=vc_yy-vc_yy1;
 
-	cout<<"Usted tiene "<<jm_ya<<" anios, "<<jm_ma<<" meses "<<"y "<<jm_da<<" dias."<<endl;
+	cout<<"Actualmente tienes "<<vc_ya<<" anios, "<<vc_ma<<" meses "<<"y "<<vc_da<<" dias."<<endl;
 cout<<"\n//======================================================="<<endl;
 cout<<"//======> Nombre del programa: Edad de una persona <====="<<endl;
-cout<<"//===========> Archivo : MejiaJose-laedad.cpp <=========="<<endl;
-cout<<"//================> Autor: Jose Mejia <=================="<<endl;
+cout<<"//===========> Archivo : ValenciaKevin-laedad.cpp <=========="<<endl;
+cout<<"//================> Autor: Valencia Kevin <=================="<<endl;
 cout<<"//=========> Fecha de elaboración: 2022-04-29 <=========="<<endl;
 cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
 cout<<"//======================================================="<<endl;
@@ -139,37 +139,36 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 
 
 //Programa CuentaMoneda
-int jm_cuentamoneda()
+int vc_cuentamoneda()
 {
-	int jm_n, jm_i, jm_sum=0, jm_sum1=0, jm_sum25=0, jm_sum50=0, flag1;
-	cout<<"\n //==> Programa para contar y clasificar monedas <==//\n "<<endl;
-	cout<<"Ingrese la cantidad de monedas que desea depositar: "<<endl;
-	cin>>jm_n;
-	int num [jm_n];
-	cout<<"Ingrese el valor de las monedas: "<<endl;
-	for (int jm_i=0; jm_i<jm_n; jm_i++){
-		cin>>num [jm_i];
-		jm_sum=jm_sum+num [jm_i];
-		if (num [jm_i]==10){
-			jm_sum1=jm_sum1+(num[jm_i]==10);	
-	}
-		else if (num [jm_i]==25){
-			jm_sum25=jm_sum25+(num[jm_i]==25);
-	}
-		else {
-			jm_sum50=jm_sum50+(num[jm_i]==50);
-	}
-
-}
-
-	cout<<"Monedas de 50 centavos: "<<jm_sum50<<endl;
-	cout<<"Monedas de 25 centavos: "<<jm_sum25<<endl;
-	cout<<"Monedas de 10 centavos: "<<jm_sum1<<endl;
-	cout<<"La cantidad total de dinero es: "<<jm_sum<<endl;
+	int vca, vcb= 0 , vcb1= 0 , vcb2= 0 ;
+	float vcx, vcm= 0 , vcm1= 0 , vcm2= 0 ;
+	cout<< "Ingreso la cantidad de monedas: " ;
+	cin>>vca;
+	do {
+		cout<< " Ingrese el valor de la moneda (0.10,0.25): " ;
+		cin>>vcx;
+		vcb=vcb+ 1 ;
+		vcm=vcm+vcx;
+		if (vcx== 0.10 ){
+			vcb1=vcb1+ 1 ;
+			vcm1=vcm1+vcx;
+		} else {
+		vcb2=vcb2+ 1 ;
+		vcm2=vcm2+vcx;
+		}
+	} while (vcb<vca);
+	cout<< " Resultado: " <<endl;
+	cout<< "El total de monedas es: " <<vcb<<endl;
+	cout<< "El dinero total contado es: " <<vcm<<endl;
+	cout<< " La suma de monedas de 0.10c ingresadas es: " <<vcb1<<endl;
+	cout<< " Dinero en monedas de 0.10c: " <<vcm1<<endl;
+	cout<< "Dinero en monedas de 0,25c: " <<vcb2<<endl;
+	cout<< "El total de dinero en monedas de 0.25c es: " <<vcm2<<endl;
 cout<<"\n//======================================================="<<endl;
 cout<<"//======> Nombre del programa: Contador de Monedas <====="<<endl;
-cout<<"//========> Archivo : MejiaJose-CuentaMoneda.cpp <======="<<endl;
-cout<<"//================> Autor: Jose Mejia <=================="<<endl;
+cout<<"//========> Archivo : ValenciaKevin-CuentaMoneda.cpp <======="<<endl;
+cout<<"//================> Autor: Valencia Kevin <=================="<<endl;
 cout<<"//=========> Fecha de elaboración: 2022-04-29 <=========="<<endl;
 cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
 cout<<"//======================================================="<<endl;
@@ -179,50 +178,50 @@ return 0;
 }
 
 //Menu Principal
-int jm_menu()
+int vc_menu()
 {
 	int op,flag1;
 
 	do{
 			system("clear");
-			cout<<"**************PROGRAMAS DE MEJIA JOSE**************"<<endl<<endl;
+			cout<<"**************PROGRAMAS DE VALENCIA KEVIN**************"<<endl<<endl;
 			cout<<"1.- COMPARA DOS NUMEROS \n";
 			cout<<"2.- SUMA DE VARIOS NUMEROS.\n";
-			cout<<"3.- PUNTO DE VENTA \n"; 
+			cout<<"3.- PUNTO DE VENTA \n";
 			cout<<"4.- CALCULA LA EDAD. \n";
-			cout<<"5.- MAQUINA CUENTA MONEDA.\n";
+			cout<<"5.- CUENTA MONEDA.\n";
 			cout<<"0.- Salir del menu. \n";
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
 				case 1:
 					system("clear");
-					jm_compara();			
+					vc_compara();
 					break;
 				case 2:
 					system("clear");
-					jm_sumaN();
+					vc_sumaN();
 					break;
 				case 3:
 					system("clear");
-					jm_puntoventa();
+					vc_puntoventa();
 					break;
 				case 4:
 					system("clear");
-					jm_laedad();
+					vc_laedad();
 					break;
 				case 5:
 					system("clear");
-					jm_cuentamoneda();
+					vc_cuentamoneda();
 					break;
 				}
 				if(op!=0 && op>5){
 				   cout << "\n Opcion no valida \n" <<  "Press Enter to continue\n";
 				   flag1=cin.ignore().get();
-				  }		  
+				  }
 				if(op==0){
 					system("clear");
 					cout<<"\n//======================================================="<<endl;
-					cout<<"//===> e-mail de contacto: mejiamicoltalol@gmail.com <==="<<endl;
+					cout<<"//===> e-mail de contacto: valenciakevin047@gmail.com <==="<<endl;
 					cout<<"//================> Esmeraldas - Ecuador <==============="<<endl;
 					cout<<"//======================================================="<<endl;
 					cout<<"\n Presione (Enter) para volver: \n"<<endl;
