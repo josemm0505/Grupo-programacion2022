@@ -65,6 +65,7 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 // Programa Punto Venta
 int  Dc_PuntoVenta ()
 {
+<<<<<<< HEAD
 	int Dc_C=0, Dc_B, flag1;
 	float Dc_A=0, Dc_X, Dc_s, Dc_Vdsc, Dc_V1, Dc_Ivav, Dc_Fn;
 	cout<<"\n //==> Programa para conocer el Punto de Venta <==//\n "<<endl;
@@ -86,6 +87,32 @@ int  Dc_PuntoVenta ()
 	cout<<"Valor Obtenido del IVA: "<<Dc_Ivav<<endl;
 	Dc_Fn=(Dc_A-Dc_Vdsc)+Dc_Ivav;
 	cout<<"Valor Final: "<<Dc_Fn<<endl;
+=======
+	int Dc_C= 0 ,Dc_B, flag1;
+	float Dc_A= 0 ,Dc_x,Dc_Tb,Dc_PIVA,Dc_Pdsc,Dc_IVA= 0.12 ,Dc_dsc= 0.30 ,Dc_VT;
+	cout<< " \n //==> Programa para conocer el Punto de Venta <==// \n  " <<endl;
+	cout<< " Ingrese Cantidad de elementos a comprar: " <<endl;
+	cin>>Dc_B;
+	do{
+		cout<< " Ingrese el valor del elemento: " <<Dc_C+1 <<endl;
+		cin>>Dc_x;
+		Dc_C=Dc_C+ 1 ;
+		Dc_A=Dc_A+Dc_x;
+		Dc_PIVA=Dc_A*Dc_IVA;
+		cout<< " El valor del IVA de su compra es:$ " <<Dc_PIVA<<endl;
+		Dc_Pdsc=Dc_A*Dc_dsc;
+		cout<< " El valor del descuento de su compra es:$ " <<Dc_Pdsc<<endl;
+		Dc_Tb=Dc_PIVA+Dc_Pdsc;
+	} while (Dc_C<Dc_B);
+	if (Dc_Tb==Dc_A){
+cout<< " Su compra aplica a Descuento: " <<Dc_Tb<<endl;
+		Dc_IVA=Dc_Tb*Dc_PIVA/ 100 ;
+		Dc_dsc=Dc_Tb*Dc_Pdsc/ 100 ;
+	} else {
+		Dc_VT=Dc_A+Dc_PIVA-Dc_Pdsc;
+	}
+cout<< " El valor total a pagar es:$ " <<Dc_VT<<endl;
+>>>>>>> 7ef082412cdd0f4c605cdd1ea42a3c055f661b4f
 cout<<"\n//======================================================="<<endl;
 cout<<"//========> Nombre del programa: Punto de Venta <========"<<endl;
 cout<<"//=========> Archivo : CapurroDanna-PuntoVenta.cpp <========"<<endl;
@@ -102,9 +129,15 @@ return 0;
 // Programa laedad
 int  Dc_laedad ()
 {
+<<<<<<< HEAD
 	int Dc_dd, Dc_mm, Dc_aa, Dc_dd1, Dc_mm1, Dc_aa1, Dc_da, Dc_ma, Dc_ya, flag1;
 	cout<<"\n //==> Programa para saber la edad exacta de una persona <==//\n "<<endl;
 	cout<<"INGRESE LA FECHA ACTUAL: dd/mm/yy: "<<endl;
+=======
+int Dc_dd,Dc_mm,Dc_aa,Dc_dd1,Dc_mm1,Dc_aa1,Dc_yy1,Dc_da,Dc_ma,Dc_yy,Dc_ya, flag1;
+	cout<< " \n //==> Programa para saber la edad exacta de una persona <==// \n  " <<endl;
+	cout<< " INGRESE LA FECHA ACTUAL: Dia Mes AñO " ;
+>>>>>>> 7ef082412cdd0f4c605cdd1ea42a3c055f661b4f
 	cin>>Dc_dd>>Dc_mm>>Dc_aa;
 	cout<<"INGRESE SU FECHA DE NACIMIENTO: dd/mm/yy: "<<endl;
 	cin>>Dc_dd1>>Dc_mm1>>Dc_aa1;
