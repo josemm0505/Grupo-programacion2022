@@ -71,7 +71,7 @@ int LJ_PuntoVenta()
 	cout<<"Digite el valor de los productos a sumar"<<endl;
 	cin>>LJ_b;
 	do{
-		cout<<"Digite el valor de su compra "<<LJ_c+1<<endl;
+		cout<<"Digite el valor de su compra "<<LJ_a+1<<endl;
 		cin>>LJ_h;
 		LJ_a=LJ_a+1;
 		LJ_m=LJ_m+LJ_h;
@@ -143,7 +143,7 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 //Programa CuentaMoneda
 int LJ_CuentaMoneda ()
 {
-        int LJ_n, LJ_d= 0 , LJ_d1= 0 , LJ_d2= 0 ;
+        int LJ_n, LJ_d= 0 , LJ_d1= 0 , LJ_d2= 0 , flag1;
 	float LJ_x,LJ_e= 0 , LJ_e1= 0 , LJ_e2= 0 ;
 	cout<< "Digite el valor de monedas a contar :" <<endl;
 	cin>>LJ_n;
