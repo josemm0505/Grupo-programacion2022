@@ -178,40 +178,40 @@ return 0;
 }
 
 //Menu Principal
-int jm_menu()
+int vc_menu()
 {
 	int op,flag1;
 
 	do{
 			system("clear");
-			cout<<"**************PROGRAMAS DE MEJIA JOSE**************"<<endl<<endl;
+			cout<<"**************PROGRAMAS DE VALENCIA KEVIN**************"<<endl<<endl;
 			cout<<"1.- COMPARA DOS NUMEROS \n";
 			cout<<"2.- SUMA DE VARIOS NUMEROS.\n";
 			cout<<"3.- PUNTO DE VENTA \n";
 			cout<<"4.- CALCULA LA EDAD. \n";
-			cout<<"5.- MAQUINA CUENTA MONEDA.\n";
+			cout<<"5.- CUENTA MONEDA.\n";
 			cout<<"0.- Salir del menu. \n";
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
 				case 1:
 					system("clear");
-					jm_compara();
+					vc_compara();
 					break;
 				case 2:
 					system("clear");
-					jm_sumaN();
+					vc_sumaN();
 					break;
 				case 3:
 					system("clear");
-					jm_puntoventa();
+					vc_puntoventa();
 					break;
 				case 4:
 					system("clear");
-					jm_laedad();
+					vc_laedad();
 					break;
 				case 5:
 					system("clear");
-					jm_cuentamoneda();
+					vc_cuentamoneda();
 					break;
 				}
 				if(op!=0 && op>5){
@@ -221,7 +221,7 @@ int jm_menu()
 				if(op==0){
 					system("clear");
 					cout<<"\n//======================================================="<<endl;
-					cout<<"//===> e-mail de contacto: mejiamicoltalol@gmail.com <==="<<endl;
+					cout<<"//===> e-mail de contacto: valenciakevin047@gmail.com <==="<<endl;
 					cout<<"//================> Esmeraldas - Ecuador <==============="<<endl;
 					cout<<"//======================================================="<<endl;
 					cout<<"\n Presione (Enter) para volver: \n"<<endl;
