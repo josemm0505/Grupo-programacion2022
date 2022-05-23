@@ -2,7 +2,7 @@
 int Dc_Compara ()
 {
 	
-	float Dc_valor1, Dc_valor2;
+	float Dc_valor1, Dc_valor2, flag1;
 	cout<< " \n //==> Programa para comprar dos numeros <==// \n  " <<endl;
 	cout<< " Ingrese un valor: " <<endl;
 	cin>>Dc_valor1;
@@ -12,7 +12,7 @@ int Dc_Compara ()
 	if (Dc_valor1==Dc_valor2){
 	cout<< " Ambas valores son iguales " <<endl;
 	}
-	 if(Dc_valor1>Dc_valor2) {
+	else if(Dc_valor1>Dc_valor2) {
 	cout<< " El valor " <<Dc_valor2<< " es mayor que " <<Dc_valor1<<endl;
 	       }
 	else{
@@ -35,7 +35,7 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 // Programa para sumar varios numeros
 int  Dc_SumaN ()
 {
-	int Dc_c= 0 , Dc_n;
+	int Dc_c= 0 , Dc_n, flag1;
 	float Dc_s= 0 , Dc_x;
 	cout<< " \n //==> Programa para sumar varios numeros <==// \n  " <<endl;
 	cout<< " Ingrese la cantidad de elementos a sumar: " <<endl;
@@ -65,7 +65,7 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 // Programa Punto Venta
 int  Dc_PuntoVenta ()
 {
-	int Dc_C= 0 ,Dc_B;
+	int Dc_C= 0 ,Dc_B, flag1;
 	float Dc_A= 0 ,Dc_x,Dc_Tb,Dc_PIVA,Dc_Pdsc,Dc_IVA= 0.12 ,Dc_dsc= 0.30 ,Dc_VT;
 	cout<< " \n //==> Programa para conocer el Punto de Venta <==// \n  " <<endl;
 	cout<< " Ingrese Cantidad de elementos a comprar: " <<endl;
@@ -87,6 +87,7 @@ cout<< " Su compra aplica a Descuento: " <<Dc_Tb<<endl;
 		Dc_dsc=Dc_Tb*Dc_Pdsc/ 100 ;
 	} else {
 		Dc_VT=Dc_A+Dc_PIVA-Dc_Pdsc;
+	}
 cout<< " El valor total a pagar es:$ " <<Dc_VT<<endl;
 cout<<"\n//======================================================="<<endl;
 cout<<"//========> Nombre del programa: Punto de Venta <========"<<endl;
@@ -99,20 +100,12 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 	flag1=cin.ignore().get();
 return 0;
 }
-
-	
-<<<<<<< HEAD
-=======
-	}
-	return  0 ;
-}
->>>>>>> 7bebc36400de51d50fea236bfb50edc29a5d0f5f
 	
 	
 // Programa laedad
 int  Dc_laedad ()
 {
-int Dc_dd,Dc_mm,Dc_aa,Dc_dd1,Dc_mm1,Dc_aa1,Dc_yy1,Dc_da,Dc_ma,Dc_yy,Dc_ya;
+int Dc_dd,Dc_mm,Dc_aa,Dc_dd1,Dc_mm1,Dc_aa1,Dc_yy1,Dc_da,Dc_ma,Dc_yy,Dc_ya, flag1;
 	cout<< " \n //==> Programa para saber la edad exacta de una persona <==// \n  " <<endl;
 	cout<< " INGRESE LA FECHA ACTUAL: Dia Mes AñO " ;
 	cin>>Dc_dd>>Dc_mm>>Dc_aa;
@@ -154,7 +147,7 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 // Programa CuentaMoneda
 int  Dc_CuentaMoneda ()
 {
-	int Dc_n, Dc_c= 0 , Dc_c1= 0 , Dc_c2= 0 ;
+	int Dc_n, Dc_c= 0 , Dc_c1= 0 , Dc_c2= 0 , flag1;
 	float Dc_x,Dc_a= 0 , Dc_a1= 0 , Dc_a2= 0 ;
 	cout<< " \n //==> Programa para contar y clasificar monedas <==// \n  " <<endl;
 	cout<< "CANTIDAD DE MONEDAS A INGRESAR :" <<endl;
@@ -231,7 +224,7 @@ int  Dc_menu ()
 					break ;
 				}
 				if (op!= 0 && op> 5 ){
-				   cout << " \n Opcion no valida \n " <<   " Presiona Enter para continuar \n " ;	    
+				   cout << " \n Opcion no valida \n " <<   " Presiona Enter para continuar \n";	    
 				  flag1=cin.ignore().get();
 				  }		  
 				if(op==0){
@@ -242,14 +235,8 @@ int  Dc_menu ()
 					cout<<"//======================================================="<<endl;
 					cout<<"\n Presione (Enter) para volver: \n"<<endl;
 				}
-<<<<<<< HEAD
 				  system("cd ..");
 	}while(op!=0);
 
 	return(0);
-=======
-				  flag1=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuario presione alguna tecla
-	} while(op!= 0 );
-	return ( 0 );
->>>>>>> 7bebc36400de51d50fea236bfb50edc29a5d0f5f
-}
+	}
