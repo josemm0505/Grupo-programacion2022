@@ -18,15 +18,18 @@ int Dc_Compara ()
 	else{
 		cout<< " El valor " <<Dc_valor1<< " es menor que   " <<Dc_valor2<<endl;
 	}
-	cout<<endl<< " //========================================= ======== " <<endl;
-cout<< " //==> Nombre del programa: Comparar dos numeros " <<endl;
-cout<< " //==> Archivo : CAPURRODANNA-Compara.cpp " <<endl;
-cout<< " //==>Autor: Danna Capurro " <<endl;
-cout<< " //==>Fecha de elaboración: 2022-04-23 " <<endl;
-cout<< " //==>Fecha ultima actualización: 2022-05-16 " <<endl;
-cout<< " //============================================ ====== " <<endl;
-	return  0 ;
+cout<<"\n//======================================================="<<endl;
+cout<<"//=====> Nombre del programa: Comparar dos numeros <====="<<endl;
+cout<<"//==========> Archivo : CapurroDanna-Compara.cpp <=========="<<endl;
+cout<<"//================> Autor: Danna Capurro <=================="<<endl;
+cout<<"//=========> Fecha de elaboración: 2022-04-23 <=========="<<endl;
+cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
+cout<<"//======================================================="<<endl;
+cout<< "\n Press Enter to exit. \n"<<endl;
+	flag1=cin.ignore().get();
+	return 0;
 }
+
 
 
 // Programa para sumar varios numeros
@@ -43,19 +46,21 @@ int  Dc_SumaN ()
 		Dc_c=Dc_c+ 1 ;
 		Dc_s=Dc_s+Dc_x;
 	}while (Dc_c<Dc_n);
-
-	cout<<endl<< " //========================================= ======= " <<endl;
-cout<< " //==> Nombre del programa: Suma de Varios numeros " <<endl;
-cout<< " //==> Archivo : CapurroDanna-SumaN.cpp " <<endl;
-cout<< " //==>Autor: Danna Capurro " <<endl;
-cout<< " //==>Fecha de elaboración: 2022-04-23 " <<endl;
-cout<< " //==>Fecha ultima actualización: 2022-05-16 " <<endl;
-cout<< " //============================================ ===== " <<endl;
-
 	cout<< " La Cantidad de elementos ingresados?Es: " <<Dc_n<<endl;
 	cout<< " La Suma de los elementos es: " <<Dc_s<<endl;
-	return 0 ;
+
+cout<<"\n//======================================================="<<endl;
+cout<<"//====> Nombre del programa: Suma de varios numeros <===="<<endl;
+cout<<"//===========> Archivo : CapurroDanna-SumaN.cpp <==========="<<endl;
+cout<<"//================> Autor: Danna Capurro <=================="<<endl;
+cout<<"//=========> Fecha de elaboración: 2022-04-23 <=========="<<endl;
+cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
+cout<<"//======================================================="<<endl;
+cout<< "\n Press Enter to exit. \n"<<endl;
+	flag1=cin.ignore().get();
+	return 0;
 }
+	
 	
 // Programa Punto Venta
 int  Dc_PuntoVenta ()
@@ -77,25 +82,25 @@ int  Dc_PuntoVenta ()
 		Dc_Tb=Dc_PIVA+Dc_Pdsc;
 	} while (Dc_C<Dc_B);
 	if (Dc_Tb==Dc_A){
-		
-		
-		cout<<endl<< " //========================================= ======= " <<endl;
-cout<< " //==> Nombre del programa: Punto de Venta " <<endl;
-cout<< " //==> Archivo : CapurroDanna-PuntoVenta.cpp " <<endl;
-cout<< " //==>Autor: Danna Capurro " <<endl;
-cout<< " //==>Fecha de elaboración: 2022-04-29 " <<endl;
-cout<< " //==>Fecha ultima actualización: 2022-05-16 " <<endl;
-cout<< " //============================================ ===== " <<endl;
-
 cout<< " Su compra aplica a Descuento: " <<Dc_Tb<<endl;
 		Dc_IVA=Dc_Tb*Dc_PIVA/ 100 ;
 		Dc_dsc=Dc_Tb*Dc_Pdsc/ 100 ;
 	} else {
 		Dc_VT=Dc_A+Dc_PIVA-Dc_Pdsc;
-		cout<< " El valor total a pagar es:$ " <<Dc_VT<<endl;
+cout<< " El valor total a pagar es:$ " <<Dc_VT<<endl;
+cout<<"\n//======================================================="<<endl;
+cout<<"//========> Nombre del programa: Punto de Venta <========"<<endl;
+cout<<"//=========> Archivo : CapurroDanna-PuntoVenta.cpp <========"<<endl;
+cout<<"//================> Autor: Danna Capurro <=================="<<endl;
+cout<<"//=========> Fecha de elaboración: 2022-04-29 <=========="<<endl;
+cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
+cout<<"//======================================================="<<endl;
+cout<< "\n Press Enter to exit. \n"<<endl;
+	flag1=cin.ignore().get();
+return 0;
+}
+
 	
-	}
-	return  0 ;
 	
 	
 // Programa laedad
@@ -125,17 +130,19 @@ int Dc_dd,Dc_mm,Dc_aa,Dc_dd1,Dc_mm1,Dc_aa1,Dc_yy1,Dc_da,Dc_ma,Dc_yy,Dc_ya;
 	}
 	Dc_ya=Dc_yy-Dc_yy1;
 	
-	cout<<endl<< " //========================================= ======= " <<endl;
-cout<< " //==> Nombre del programa: Edad de una persona " <<endl;
-cout<< " //==> Archivo : CapurroDanna-laedad.cpp " <<endl;
-cout<< " //==>Autor: Danna Capurro" <<endl;
-cout<< " //==>Fecha de elaboración: 2022-04-29 " <<endl;
-cout<< " //==>Fecha ultima actualización: 2022-05-17 " <<endl;
-cout<< " //============================================ ===== " <<endl;
-
-	cout<< " USTED TIENE: " <<Dc_ya<< " Años; " <<Dc_ma<< " Meses " << " y " <<Dc_da<< " Dia " <<endl;
-	return 0 ;
+cout<< " USTED TIENE: " <<Dc_ya<< " Años; " <<Dc_ma<< " Meses " << " y " <<Dc_da<< " Dia " <<endl;
+cout<<"\n//======================================================="<<endl;
+cout<<"//======> Nombre del programa: Edad de una persona <====="<<endl;
+cout<<"//===========> Archivo : CapurroDanna-laedad.cpp <=========="<<endl;
+cout<<"//================> Autor: Danna Capurro <=================="<<endl;
+cout<<"//=========> Fecha de elaboración: 2022-04-29 <=========="<<endl;
+cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
+cout<<"//======================================================="<<endl;
+cout<< "\n Press Enter to exit. \n"<<endl;
+	flag1=cin.ignore().get();
+	return 0;
 }
+
 
 
 // Programa CuentaMoneda
@@ -159,14 +166,6 @@ int  Dc_CuentaMoneda ()
 		Dc_a2=Dc_a2+Dc_x;
 		}
 		
-		cout<<endl<< " //========================================= ======= " <<endl;
-cout<< " //==> Nombre del programa: Contador de Monedas " <<endl;
-cout<< " //==> Archivo : CapurroDanna-CuentaMoneda.cpp " <<endl;
-cout<< " //==>Autor: Danna Capurro " <<endl;
-cout<< " //==>Fecha de elaboración: 2022-04-29 " <<endl;
-cout<< " //==>Fecha ultima actualización: 2022-05-17 " <<endl;
-cout<< " //============================================ ===== " <<endl;
-
 } while (Dc_c<Dc_n);
 	cout<< " EL RESULTADO FUE: " <<endl;
 	cout<< " CANTIDAD DE MONEDAS INGRESADAS: " <<Dc_c<<endl;
@@ -175,8 +174,18 @@ cout<< " //============================================ ===== " <<endl;
 	cout<< " CANTIDAD TOTAL EN DINERO DE MONEDAS DE 10: " <<Dc_a1<<endl;
 	cout<< " CANTIDAD DE MONEDAS DE 25 INGRESADAS: " <<Dc_c2<<endl;
 	cout<< " CANTIDAD TOTAL EN DINERO DE MONEDAS DE 25: " <<Dc_a2<<endl;
-	return 0 ;
+cout<<"\n//======================================================="<<endl;
+cout<<"//======> Nombre del programa: Contador de Monedas <====="<<endl;
+cout<<"//========> Archivo : CapurroDanna-CuentaMoneda.cpp <======="<<endl;
+cout<<"//================> Autor: Danna Capurro <=================="<<endl;
+cout<<"//=========> Fecha de elaboración: 2022-04-29 <=========="<<endl;
+cout<<"//=======> Fecha ultima actualización: 2022-05-13 <======"<<endl;
+cout<<"//======================================================="<<endl;
+cout<< "\n Press Enter to exit. \n"<<endl;
+	flag1=cin.ignore().get();
+return 0;
 }
+
 	
 // Menú Principal
 int  Dc_menu ()
@@ -184,7 +193,7 @@ int  Dc_menu ()
 	int op,flag1;
 
 	do{
-			system ( " claro " );
+			system ("clear");
 			cout<< " **************PROGRAMAS DE CAPURRO DANNA************** " <<endl<<endl;
 			cout<< " 1.- COMPARA DOS NUMEROS \n " ;
 			cout<< " 2.- SUMA DE VARIOS NUMEROS. \n " ;
@@ -195,33 +204,40 @@ int  Dc_menu ()
 			cout<< " Ingrese una opcion: " ; cin>>op; // la variable op siver para la oppcion a escoger
 			switch (op){
 				case  1 :
-					system ( " claro " );
+					system ("clear");
 					Dc_Compara ();			
 					break ;
 				case  2 :
-					system ( " claro " );
+					system ("clear");
 					Dc_SumaN ();
 					break ;
 				case  3 :
-					system ( " claro " );
+					system ("clear");
 					Dc_PuntoVenta ();
 					break ;
 				case  4 :
-					system ( " claro " );
+					system ("clear");
 					Dc_laedad ();
 					break ;
 				case  5 :
-					system ( " claro " );
+					system ("clear");
 					Dc_CuentaMoneda ();
 					break ;
 				}
 				if (op!= 0 && op> 5 ){
-				   cout << " \n Opcion no valida \n " <<   " Presiona Enter para continuar \n " ;	    // pausar el programa hasta que ingrese el usuario
+				   cout << " \n Opcion no valida \n " <<   " Presiona Enter para continuar \n " ;	    
+				  flag1=cin.ignore().get();
 				  }		  
-				if (op== 0 ){
-					cout<< " Presione (Enter) para volver: " <<endl;
+				if(op==0){
+					system("clear");
+					cout<<"\n//======================================================="<<endl;
+					cout<<"//===> e-mail de contacto: danna.capurro.mendoza@utelvt.edu.ec <==="<<endl;
+					cout<<"//================> Esmeraldas - Ecuador <==============="<<endl;
+					cout<<"//======================================================="<<endl;
+					cout<<"\n Presione (Enter) para volver: \n"<<endl;
 				}
-				  bandera1=cin. ignorar (). obtener (); // Esta linea detiene la patalla hasta que el usuario presione alguna tecla
-	} while(op!= 0 );
-	return ( 0 );
+				  system("cd ..");
+	}while(op!=0);
+
+	return(0);
 }
