@@ -6,6 +6,8 @@ Fecha de creación: 20/05/2022 */
 using namespace std;
 #include"jm_libreria.h"
 #include"dc_libreria.h"
+#include"LJ_libreria.h"
+#include"vc_libreria.h"
 int main ()
 {
 	int op,flag;
@@ -31,11 +33,11 @@ int main ()
 					break;
 				case 3:
 					system("clear");
-					//jm_puntoventa;
+					 LJ_menu();
 					break;
 				case 4:
 					system("clear");
-					//jm_laedad;
+					 vc_menu();
 					break;
 				case 5:
 					system("clear");
