@@ -141,7 +141,7 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 //Programa CuentaMoneda
 int vc_cuentamoneda()
 {
-	int vca, vcb= 0 , vcb1= 0 , vcb2= 0 ;
+	int vca, vcb= 0 , vcb1= 0 , vcb2= 0 , flag1;
 	float vcx, vcm= 0 , vcm1= 0 , vcm2= 0 ;
 	cout<< "Ingreso la cantidad de monedas: " ;
 	cin>>vca;
