@@ -8,6 +8,7 @@ using namespace std;
 #include"dc_libreria.h"
 #include"LJ_libreria.h"
 #include"vc_libreria.h"
+#include"ei_libreria.h"
 int main ()
 {
 	int op,flag;
@@ -41,7 +42,7 @@ int main ()
 					break;
 				case 5:
 					system("clear");
-					//jm_cuentamoneda;
+					 ei_menu();
 					break;
 				}
 				if(op!=0 && op>5){
