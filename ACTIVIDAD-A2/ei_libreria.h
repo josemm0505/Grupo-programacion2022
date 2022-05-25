@@ -16,8 +16,7 @@ float ei_a, ei_b;
 	else{
 		cout<<"El numero "<<ei_b<<" es mayor "<<ei_a<<endl;
 	} 
-cout<<endl<<"//
-//============================================= <<endl;
+cout<<"\n//======================================================="<<endl;
 cout<<"//==>Nombre del programa: Comparar dos números "<<endl;
 cout<<"//==>Archivo: IbarraEmiko-Compara.cpp "<<endl;
 cout<<"//==>Autora: Emiko Ibarra "<<endl;
@@ -31,7 +30,7 @@ return 0;
 //Programa para sumar varios numeros
 int ei_sumaN()
 {
-	int ei_b=0, ei_a;
+	int ei_b=0, ei_a, flag1;
 	float ei_d, ei_c=0;
 	cout<<"Ingrese cuántos números va a sumar: "<<endl;
 	cin>>ei_a;
@@ -43,7 +42,7 @@ int ei_sumaN()
 	}while (ei_b<ei_a);
 	cout<<"Los números ingresados son: "<<ei_a<<endl;
 	cout<<"La suma total es: "<<ei_c<<endl;
-============================================= <<endl;
+cout<<"\n//======================================================="<<endl;
 cout<<"//==>Nombre del programa: Suma de números "<<endl;
 cout<<"//==>Archivo: IbarraEmiko-SumaN.cpp "<<endl;
 cout<<"//==>Autora: Emiko Ibarra "<<endl;
@@ -57,7 +56,7 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 //Programa PuntoVenta
 int ei_puntoventa()
 {
-	int ei_b=0 , ei_e;
+	int ei_b=0 , ei_e, flag1;
 	float ei_a=0 , ei_x, ei_t, ei_p, ei_pd, IVA= 0.12 , dsc=0.30 , ei_tt;
 	cout<< " Ingresé cuántos elementos va a comprar: " ;
 	cin>>ei_e;
@@ -80,7 +79,7 @@ if (ei_t==ei_a){
 		ei_tt=ei_a+ei_p-ei_pd;
 		cout<< " Su total a pagar es:$ " <<ei_tt<<endl;
 }
-============================================= <<endl;
+cout<<"\n//======================================================="<<endl;
 cout<<"//==>Nombre del programa: Punto de venta"<<endl;
 cout<<"//==>Archivo: IbarraEmiko-PuntoVenta.cpp "<<endl;
 cout<<"//==>Autora: Emiko Ibarra "<<endl;
@@ -94,7 +93,7 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 //Programa laedad
 int ei_laedad()
 {
-	int ei_a, ei_b, ei_c, ei_a1, ei_b1, ei_c1, ei_d, ei_q, ei_eu, ei_qq, ei_qq1;
+	int ei_a, ei_b, ei_c, ei_a1, ei_b1, ei_c1, ei_d, ei_q, ei_eu, ei_qq, ei_qq1, flag1;
 	cout<< " Ingresé la fecha de hoy " ;
 	cin>>ei_a>>ei_b>>ei_c;
 	cout<< " Ingresé su fecha de nacimiento " ;
@@ -117,7 +116,7 @@ int ei_laedad()
 	}
 	ei_eu=ei_qq-ei_qq1;
 	cout<< " Su edad es : " <<ei_eu<< " Años; " <<ei_q<< " Meses " << " y " <<ei_d<< " DIA " <<endl;
-============================================= <<endl;
+cout<<"\n//======================================================="<<endl;
 cout<<"//==>Nombre del programa: Sacar la edad "<<endl;
 cout<<"//==>Archivo: IbarraEmiko-LaEdad.cpp "<<endl;
 cout<<"//==>Autora: Emiko Ibarra "<<endl;
@@ -131,7 +130,7 @@ cout<< "\n Press Enter to exit. \n"<<endl;
 //Programa CuentaMoneda
 int ei_cuentamoneda()
 {
-	int ei_a, ei_b= 0 , ei_b1= 0 , ei_b2= 0 ;
+	int ei_a, ei_b= 0 , ei_b1= 0 , ei_b2= 0 , flag1;
 	float ei_x, ei_m= 0 , ei_m1= 0 , ei_m2= 0 ;
 	cout<< "Ingreso de la cantidad de monedas: " ;
 	cin>>ei_a;
@@ -155,7 +154,7 @@ int ei_cuentamoneda()
 	cout<< " Total de dinero en monedas de 0.10c: " <<ei_m1<<endl;
 	cout<< "Cantidad de monedas de 0,25c ingresadas: " <<ei_b2<<endl;
 	cout<< "La cantidad de dinero en monedas de 0.25c es: " <<ei_m2<<endl;
-============================================= <<endl;
+cout<<"\n//======================================================="<<endl;
 cout<<"//==>Nombre del programa: Sacar cuentas de monedas"<<endl;
 cout<<"//==>Archivo: IbarraEmiko-CuentaMoneda.cpp "<<endl;
 cout<<"//==>Autora: Emiko Ibarra "<<endl;
